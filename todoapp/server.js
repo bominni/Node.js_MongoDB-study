@@ -246,3 +246,5 @@ passport.deserializeUser(function (아이디, done) {
     done(null, 결과); // 이 세션 데이터를 가진 사람을 DB에서 찾아주세요
   });
 });
+
+app.post("/register", function (요청, 응답) {});
